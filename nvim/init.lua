@@ -1,0 +1,2 @@
+-- Neovim – init.lua bootstrap
+-- Package-manager, keymaps, LSP and autopairs to follow.
