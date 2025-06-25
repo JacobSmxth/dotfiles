@@ -1,2 +1,11 @@
--- Neovim – init.lua bootstrap
--- Package-manager, keymaps, LSP and autopairs to follow.
+
+require('themes.voided').apply()
+
+require('core.options')
+require('core.mappings')
+require('core.autocmds')
+
+
+
+
+require('plugins')

@@ -1,0 +1,22 @@
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+size = 12.0
+
+[colors.primary]
+background = "#080713"
+foreground = "#e4b9d4"
+
+[colors.cursor]
+text = "#1e1e2e"
+cursor = "#f38ba8"
+
+[window]
+opacity = 0.90
+startup_mode = "Maximized"
+
+[window.padding]
+y = 10
+x = 20
