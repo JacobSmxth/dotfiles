@@ -1,2 +1,12 @@
-# Wofi – launcher config stub
-# Theme, layout and keybindings.
+# Advanced Wofi configuration
+show=drun
+prompt=Search...
+columns=1
+lines=10
+width=40%
+location=center
+allow_images=true
+no_actions=true
+term=alacritty
+gtk_dark=true
+style=~/.config/wofi/style.css

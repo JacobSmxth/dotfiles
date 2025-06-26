@@ -1,0 +1,16 @@
+window {
+    font-family: "JetBrainsMono Nerd Font";
+    background-color: #080713;
+    color: #e4b9d4;
+}
+
+#entry:selected {
+    background-color: #B1368D;
+    color: #080713;
+}
+
+#input, #prompt {
+    background-color: #080713;
+    color: #e4b9d4;
+    border: 1px solid #B1368D;
+}
