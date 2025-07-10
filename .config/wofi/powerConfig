@@ -1,0 +1,13 @@
+show=drun
+allow_images=true
+insensitive=true
+no_hover=false
+prompt=
+hide_scroll=true
+width=320
+height=250
+location=3
+xalign=1.0
+xoffset=-25
+hide_search=true
+

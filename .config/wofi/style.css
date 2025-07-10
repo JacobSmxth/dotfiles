@@ -1,0 +1,67 @@
+* {
+  all: unset;
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 1.1rem;
+  color: #e4b9d4;
+}
+
+
+#window {
+  margin: 0;
+  padding: 0;
+  border-radius: 12px;
+  background-color: rgba(8, 7, 19, 0.8);
+  backdrop-filter: blur(16px);
+  min-height: 100%;
+  min-width: 320px;
+}
+
+#input {
+  padding: 12px 16px;
+  background-color: rgba(24, 24, 24, 0.6);
+  color: #e4b9d4;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px 12px 0 0;
+}
+
+/* Entry list area */
+#outer-box {
+  padding: 8px;
+}
+
+#scroll {
+  padding: 6px;
+}
+
+/* Individual entries */
+#entry {
+  padding: 10px 16px;
+  margin-bottom: 6px;
+  border-radius: 8px;
+  transition: background 0.1s ease;
+  display: flex;
+  align-items: center;
+}
+
+/* Icon in entry */
+#img {
+  margin-right: 12px;
+  min-width: 1.3rem;
+  min-height: 1.3rem;
+}
+
+/* Selected item */
+#entry:selected {
+  background-color: rgba(177, 54, 141, 0.25);
+  color: #ffffff;
+  outline: none;
+  box-shadow: none;
+}
+
+/* Remove focus styling from GTK */
+#entry:selected:focus {
+  outline: none;
+  box-shadow: none;
+}
+
