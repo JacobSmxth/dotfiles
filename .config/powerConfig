@@ -1,0 +1,12 @@
+show=drun
+allow_images=true
+insensitive=true
+no_hover=false
+prompt=
+hide_scroll=true
+width=40%
+height=25%
+location=center
+hide_search=true
+columns=6
+valign=center

@@ -1,0 +1,15 @@
+prompt=
+no-actions=false
+allow-markup=true
+insensitive=true
+case-insensitive=true
+term=alacritty
+height=500
+width=500
+location=center
+allow_images=true
+content_halign=start
+image_size=24
+monitor=DP-5
+normal_window=true
+

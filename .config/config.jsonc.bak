@@ -1,0 +1,16 @@
+{
+
+  "height": 40,
+  "spacing": 4,
+
+  "modules-left": [
+    "clock"
+  ],
+
+  "clock": {
+    "timezone": "America/New_York",
+    "tooltip-format": "<big>{:%Y %B}</big>",
+    "format-alt": "{:%Y-%m-%d}"
+  }
+
+}

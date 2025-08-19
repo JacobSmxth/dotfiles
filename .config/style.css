@@ -1,0 +1,61 @@
+@import url("../../.cache/wal/colors-waybar.css");
+
+
+* {
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size:   14px;
+  border:      none;
+  box-shadow:  none;
+}
+
+window#waybar {
+  /* GTK CSS alpha() gives you RGBA from a named color */
+  background-color: alpha(@background, 0.6);  /* 60% opaque */
+  border-radius:    8px;
+  color:            @foreground;
+  transition:       background-color 0.2s ease;
+}
+
+#workspaces button {
+  color:       @color1;   /* use any slot you like */
+  padding:     0 10px;
+  border-radius: 2px 0 0 2px;
+}
+
+#workspaces button.active {
+  background-color: @color3;
+  color:            @background;
+}
+
+#clock {
+  color:   @color4;
+  padding: 0 10px;
+}
+
+#pulseaudio.muted {
+  color:   @color8;
+  padding: 0 10px;
+}
+
+#tray {
+  margin-right: 10px;
+}
+
+#network,
+#memory,
+#cpu {
+  color:   @color2;
+  padding: 0 10px;
+}
+
+#custom-power {
+  color:         @foreground;
+  font-size:     15px;
+  padding:       0 20px;
+  border-radius: 0 2px 2px 0;
+  transition:    background 0.3s ease;
+}
+
+#custom-power:hover {
+  background-color: alpha(@background, 1);
+}

@@ -1,0 +1,5 @@
+IMAGE="$1"
+swww img "$IMAGE" && wal -i "$IMAGE"
+pkill waybar
+waybar & disown
+eww reload
