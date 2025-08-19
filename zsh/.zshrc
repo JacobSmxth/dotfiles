@@ -113,6 +113,10 @@ source $ZSH/oh-my-zsh.sh
 
 
 export PATH="$HOME/bin:$PATH"
+export EDITOR="nvim"
+export VISUAL="$EDITOR"
+alias nnn='nnn -de'
+source ~/.bash_completion.d/clock
 
 
 
@@ -123,3 +127,5 @@ neofetch
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk
+export PATH="$JAVA_HOME/bin:$PATH"
